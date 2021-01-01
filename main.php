@@ -14,7 +14,9 @@ $message = 'Hi there take caution warning!!! dangerous careful';
         echo 'Word '.$c.' matched <br> <br>';
     }
  endforeach;
+//This script should echo word 1-4 Matched respectively because all the array values are present in the message($message) Variable
  ?>
+<!--You cann add a little bit of styling to make it descent  -->
 <style>
     body{
         background: #ccc;
